@@ -45,7 +45,7 @@ export default function ChatInterface() {
   };
 
   return (
-    <div data-filename="pages/ChatbotDetail" data-linenumber="589" data-visual-selector-id="pages/ChatbotDetail589" style={{
+    <div data-filename="pages/ChatbotDetail" data-linenumber="632" data-visual-selector-id="pages/ChatbotDetail632" style={{
       display: 'flex',
       flexDirection: 'column',
       height: '100vh',
@@ -53,7 +53,7 @@ export default function ChatInterface() {
       margin: '0 auto',
       padding: '1rem'
     }}>
-      <div data-filename="pages/ChatbotDetail" data-linenumber="597" data-visual-selector-id="pages/ChatbotDetail597" style={{
+      <div data-filename="pages/ChatbotDetail" data-linenumber="640" data-visual-selector-id="pages/ChatbotDetail640" style={{
         background: 'rgba(255, 255, 255, 0.9)',
         backdropFilter: 'blur(12px)',
         borderTopLeftRadius: '1rem',
@@ -62,7 +62,7 @@ export default function ChatInterface() {
         padding: '1.5rem',
         boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
       }}>
-        <h1 data-filename="pages/ChatbotDetail" data-linenumber="606" data-visual-selector-id="pages/ChatbotDetail606" style={{
+        <h1 data-filename="pages/ChatbotDetail" data-linenumber="649" data-visual-selector-id="pages/ChatbotDetail649" style={{
           fontSize: '1.875rem',
           fontWeight: 'bold',
           color: '#8b5cf6',
@@ -70,13 +70,13 @@ export default function ChatInterface() {
         }}>
           all rounder tech
         </h1>
-        <p data-filename="pages/ChatbotDetail" data-linenumber="614" data-visual-selector-id="pages/ChatbotDetail614" style={{
+        <p data-filename="pages/ChatbotDetail" data-linenumber="657" data-visual-selector-id="pages/ChatbotDetail657" style={{
           fontSize: '0.875rem',
           color: '#64748b'
         }}>hello i am help ful assisstant</p>
       </div>
       
-      <div data-filename="pages/ChatbotDetail" data-linenumber="620" data-visual-selector-id="pages/ChatbotDetail620" style={{
+      <div data-filename="pages/ChatbotDetail" data-linenumber="663" data-visual-selector-id="pages/ChatbotDetail663" style={{
         flex: 1,
         overflowY: 'auto',
         padding: '1.5rem',
@@ -87,11 +87,11 @@ export default function ChatInterface() {
         backdropFilter: 'blur(4px)'
       }}>
         {messages.map((msg, i) => (
-          <div data-filename="pages/ChatbotDetail" data-linenumber="631" data-visual-selector-id="pages/ChatbotDetail631" key={i} style={{
+          <div data-filename="pages/ChatbotDetail" data-linenumber="674" data-visual-selector-id="pages/ChatbotDetail674" key={i} style={{
             display: 'flex',
             justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start'
           }}>
-            <div data-filename="pages/ChatbotDetail" data-linenumber="635" data-visual-selector-id="pages/ChatbotDetail635" style={{
+            <div data-filename="pages/ChatbotDetail" data-linenumber="678" data-visual-selector-id="pages/ChatbotDetail678" style={{
               maxWidth: '75%',
               borderRadius: '1rem',
               padding: '1rem 1.25rem',
@@ -102,13 +102,13 @@ export default function ChatInterface() {
               boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
               wordWrap: 'break-word'
             }}>
-              <p data-filename="pages/ChatbotDetail" data-linenumber="646" data-visual-selector-id="pages/ChatbotDetail646" style={{ fontSize: '0.9375rem', lineHeight: '1.5' }}>{msg.content}</p>
+              <p data-filename="pages/ChatbotDetail" data-linenumber="689" data-visual-selector-id="pages/ChatbotDetail689" style={{ fontSize: '0.9375rem', lineHeight: '1.5' }}>{msg.content}</p>
             </div>
           </div>
         ))}
         {isLoading && (
-          <div data-filename="pages/ChatbotDetail" data-linenumber="651" data-visual-selector-id="pages/ChatbotDetail651" style={{ display: 'flex', justifyContent: 'flex-start' }}>
-            <div data-filename="pages/ChatbotDetail" data-linenumber="652" data-visual-selector-id="pages/ChatbotDetail652" style={{
+          <div data-filename="pages/ChatbotDetail" data-linenumber="694" data-visual-selector-id="pages/ChatbotDetail694" style={{ display: 'flex', justifyContent: 'flex-start' }}>
+            <div data-filename="pages/ChatbotDetail" data-linenumber="695" data-visual-selector-id="pages/ChatbotDetail695" style={{
               background: '#ffffff',
               borderRadius: '1rem',
               padding: '1rem',
@@ -117,21 +117,21 @@ export default function ChatInterface() {
               gap: '0.5rem',
               alignItems: 'center'
             }}>
-              <div data-filename="pages/ChatbotDetail" data-linenumber="661" data-visual-selector-id="pages/ChatbotDetail661" style={{
+              <div data-filename="pages/ChatbotDetail" data-linenumber="704" data-visual-selector-id="pages/ChatbotDetail704" style={{
                 width: '0.5rem',
                 height: '0.5rem',
                 background: '#94a3b8',
                 borderRadius: '50%',
                 animation: 'bounce 1s infinite'
               }} />
-              <div data-filename="pages/ChatbotDetail" data-linenumber="668" data-visual-selector-id="pages/ChatbotDetail668" style={{
+              <div data-filename="pages/ChatbotDetail" data-linenumber="711" data-visual-selector-id="pages/ChatbotDetail711" style={{
                 width: '0.5rem',
                 height: '0.5rem',
                 background: '#94a3b8',
                 borderRadius: '50%',
                 animation: 'bounce 1s infinite 0.15s'
               }} />
-              <div data-filename="pages/ChatbotDetail" data-linenumber="675" data-visual-selector-id="pages/ChatbotDetail675" style={{
+              <div data-filename="pages/ChatbotDetail" data-linenumber="718" data-visual-selector-id="pages/ChatbotDetail718" style={{
                 width: '0.5rem',
                 height: '0.5rem',
                 background: '#94a3b8',
@@ -143,7 +143,7 @@ export default function ChatInterface() {
         )}
       </div>
 
-      <div data-filename="pages/ChatbotDetail" data-linenumber="687" data-visual-selector-id="pages/ChatbotDetail687" style={{
+      <div data-filename="pages/ChatbotDetail" data-linenumber="730" data-visual-selector-id="pages/ChatbotDetail730" style={{
         background: 'rgba(255, 255, 255, 0.9)',
         backdropFilter: 'blur(12px)',
         borderBottomLeftRadius: '1rem',
@@ -152,7 +152,7 @@ export default function ChatInterface() {
         padding: '1rem',
         boxShadow: '0 -1px 3px rgba(0, 0, 0, 0.1)'
       }}>
-        <div data-filename="pages/ChatbotDetail" data-linenumber="696" data-visual-selector-id="pages/ChatbotDetail696" style={{ display: 'flex', gap: '0.75rem' }}>
+        <div data-filename="pages/ChatbotDetail" data-linenumber="739" data-visual-selector-id="pages/ChatbotDetail739" style={{ display: 'flex', gap: '0.75rem' }}>
           <input
             type="text"
             value={input}
